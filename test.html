@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>test for calc() => css3</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            main {
+                color: #FFF;
+                padding: 20px 0;
+                overflow: hidden;
+                background-color: aquamarine
+            }
+            header {
+                width: calc((100% / 12) * 6);
+                background-color: bisque;
+                float: left;
+            }
+            footer {
+                width: calc((100% / 12) * 6);
+                background-color: brown;
+                float: left;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <header>Header</header>
+            <footer>Footer</footer>
+        </main>
+    </body>
+</html>
